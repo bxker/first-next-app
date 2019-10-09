@@ -1,0 +1,17 @@
+
+.student-center{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.students-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40vw;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+
+}

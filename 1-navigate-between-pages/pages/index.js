@@ -1,7 +1,15 @@
-export default function Index() {
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import HomeComp from '../components/HomeComp';
+
+const Index = () => {
   return (
     <div>
-      <p>Hello Next.js</p>
+      <Header />
+      <HomeComp />
+      <Footer />
     </div>
   )
 }
+
+export default Index;
